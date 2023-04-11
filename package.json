@@ -1,0 +1,19 @@
+{
+  "name": "bookshelf_jest",
+  "version": "1.0.0",
+  "description": "bookshelf app with jest unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^28.1.3"
+  }
+}
